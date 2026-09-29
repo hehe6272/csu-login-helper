@@ -1,0 +1,19 @@
+* { box-sizing: border-box; }
+body { width: 320px; margin: 0; color: #17304c; background: #f5f8fc; font: 14px/1.5 system-ui, "Microsoft JhengHei", sans-serif; }
+main { padding: 20px; }
+h1 { margin: 0; font-size: 20px; }
+.sub { margin: 0 0 18px; color: #60758b; }
+.switch-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 0 0 10px; padding: 10px 12px; border: 1px solid #dae4ee; border-radius: 10px; background: white; font-weight: 600; }
+.switch-row input { width: 18px; height: 18px; margin: 0; accent-color: #1759a7; cursor: pointer; }
+.field { display: block; margin: 14px 0 5px; font-weight: 600; }
+input[type="text"], input[type="password"] { width: 100%; padding: 10px 11px; border: 1px solid #b9c8d9; border-radius: 8px; background: white; font: inherit; }
+input:focus-visible, button:focus-visible { outline: 2px solid #2772c9; outline-offset: 2px; }
+button { width: 100%; margin-top: 16px; padding: 10px; border: 0; border-radius: 8px; color: white; background: #1759a7; font: inherit; font-weight: 700; cursor: pointer; }
+button:hover { background: #104986; }
+button.secondary { margin-top: 8px; border: 1px solid #1759a7; color: #1759a7; background: white; }
+button.secondary:hover { background: #eaf3ff; }
+#notice { min-height: 21px; margin: 10px 0 0; color: #226538; }
+.help { margin: 8px 0 0; color: #60758b; font-size: 12px; }
+.version { margin: 12px 0 0; color: #8796a8; font-size: 11px; text-align: right; }
+.version a { color: #2772c9; text-decoration: none; }
+.version a:hover { text-decoration: underline; }

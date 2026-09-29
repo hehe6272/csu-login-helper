@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>CSU正修訊息網</title><link rel="stylesheet" href="popup.css"></head>
+<body>
+  <main>
+    <h1>CSU正修訊息網</h1>
+    <p class="sub">登入欄位自動輸入</p>
+    <label class="switch-row"><span>自動填入帳號與密碼</span><input id="autoCredentials" type="checkbox" role="switch"></label>
+    <label class="switch-row"><span>自動辨識驗證值</span><input id="autoCaptcha" type="checkbox" role="switch"></label>
+    <label class="field" for="username">預設帳號</label>
+    <input id="username" type="text" autocomplete="off" placeholder="自行填寫學號或職編">
+    <label class="field" for="password">預設密碼</label>
+    <input id="password" type="password" autocomplete="off" placeholder="自行填寫密碼">
+    <button id="save" type="button">儲存帳號與密碼</button>
+    <p id="notice" role="status" aria-live="polite"></p>
+    <p class="help">驗證值只會在本機辨識並填入；辨識不確定時請手動輸入。登入按鈕仍需自行點擊。</p>
+    <p class="version">v1.0.0<br><a href="https://github.com/hehe6272" target="_blank" rel="noreferrer">作者：hehe6272</a></p>
+  </main>
+  <script src="popup.js"></script>
+</body>
+</html>
