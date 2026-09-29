@@ -3,7 +3,7 @@
   "name": "CSU正修訊息登入助手",
   "version": "1.0.0",
   "author": "https://github.com/hehe6272",
-  "description": "在CSU正修訊息網登入頁填入自訂帳密，並於本機辨識算式驗證值。",
+  "description": "學生自行製作的 CSU 正修訊息登入助手，僅供學術研究與學習使用。",
   "permissions": ["storage", "activeTab"],
   "host_permissions": ["https://portal.csu.edu.tw/*"],
   "action": {"default_title": "CSU正修訊息登入助手", "default_popup": "popup.html"},

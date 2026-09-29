@@ -14,6 +14,7 @@ button.secondary { margin-top: 8px; border: 1px solid #1759a7; color: #1759a7; b
 button.secondary:hover { background: #eaf3ff; }
 #notice { min-height: 21px; margin: 10px 0 0; color: #226538; }
 .help { margin: 8px 0 0; color: #60758b; font-size: 12px; }
+.disclaimer { margin: 8px 0 0; color: #7b5b2a; font-size: 11px; }
 .version { margin: 12px 0 0; color: #8796a8; font-size: 11px; text-align: right; }
 .version a { color: #2772c9; text-decoration: none; }
 .version a:hover { text-decoration: underline; }
